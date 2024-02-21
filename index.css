@@ -1,0 +1,260 @@
+body{
+    font-family: 'Farsan', cursive;
+    color: #0c0c0c;
+    background-color: #ffffff;
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    background-color: #fffefc;
+}
+header
+{
+    background-image: linear-gradient(to right, #0d0e10 , #353f40); 
+    margin-top: -22px;
+    height: 120px;
+}
+.logo    /* css header */
+{
+    width:22%;
+    float: left;
+    padding: 0;
+    margin-left: 190px;
+}
+.logo img
+{
+    width: 222px;
+    height: 144px;
+}
+.anchor    /* css header */
+{
+    display: inline-block;
+}
+.anchor a    /* css header */
+{
+    text-decoration: none;
+    color: #da951c;
+}
+.anchor ul    /* css header */
+{
+    padding: 0;
+    margin: 0%;
+    list-style: none;
+    padding-top: 50px;
+    padding-bottom: 18px;
+    padding-right: 30px;
+    text-align: center;
+}
+.anchor ul li    /* css header */
+{
+    display: inline-block;
+    font-size: 29px;
+    font-weight: bolder;
+    padding-left: 15px; 
+}
+.menu-options 
+{
+    padding: 0;
+    margin: 0%;
+    list-style: none;
+    padding-top: 50px;
+    padding-bottom: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: center;
+}
+.menu-options li 
+{
+    display: inline-block;
+    font-size: 22px;
+    padding-left: 15px; 
+    padding: 7px 25px;
+    cursor: pointer;
+    border-radius: 25px;
+}
+li a { 
+    text-decoration: none;
+    color: black;}
+.active{
+    background-color: #222831;
+    color: #ffffff;
+}
+.container 
+{
+    height:790px;
+}
+.container h2
+{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+    margin-top: 69px;
+}
+.container hr{
+    border: none;
+    opacity: 1;
+    margin: 0rem 0;
+    margin: auto;
+    width: 90px;
+    height: 3px;
+    background-color: #c5cace;
+    margin-top: 0%;
+    margin-bottom: 30px;
+}
+
+.card-container {
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 10px;
+    display: flex;
+    flex-flow:wrap;
+}
+.card-container:hover .card {
+    cursor: pointer;
+}
+.card-container .card {
+    margin: 10px;
+    width: calc(100% / 3 - 20px);
+    box-shadow: 0 0 2px 2px rgba(0,0,0,.05);
+    background: #FFF;
+    transition: .15s all ease;
+}
+.card-container .card:hover {
+    box-shadow: 0 0 8px 3px rgba(0,0,0,.15);
+    transform: scale(1.025);
+    opacity: 1;
+    transition: .35s all ease;
+}
+.card-container .card img {
+    width: auto;
+    padding: 50px;
+    height: 215px;
+    justify-content: center;
+    margin: 0;
+   
+}
+.card-container .card .content {
+    padding: 15px 20px;
+}
+.card-container .card h3 {
+    font: 2.8rem/3.4rem 'Bree Serif', serif;
+    margin: 0 0 10px;
+}
+.card-container .card p {
+    color: #888;
+    font: 400 1.6rem/2.2rem 'Open Sans script=all', sans-serif;
+}
+.container button
+{
+    margin-left:618px;
+    margin-top:50px;
+    font-family: Agency FB;
+    font-size: 25px;
+    font-weight: bold;
+    background-color: #fcad04;
+    border-radius: 25px;
+    padding: 15px 32px;
+    text-align: center;
+    width: 253px;
+    cursor: pointer;
+    border: none;
+}
+
+footer
+{
+    background-image: url(assets/images/footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-color: #222831; */
+    margin-top: 1800px;
+    margin-left: 0;
+    margin-right: 0;
+    height: 450px;
+    /* width: auto; */
+}
+footer h1
+{
+    color: #fffefc;
+    text-align: center;
+    padding-top: 200px;
+    font-size: 45px;
+}
+footer .about , footer .contact , footer .oppening
+{
+    display: flex;
+    flex-direction: column;
+}
+footer .about
+{
+    margin-right: 108px;
+    margin-left: -176px;
+}
+footer .about p 
+{
+    width: 298px;
+    margin-bottom: 17px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    /* color:white; */
+    color: #da951c;
+    font-size: large;
+    font-weight: 800;
+}
+footer .about h2 , footer .contact h2 , footer .oppening h2
+{
+    color: #da951c;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    margin-bottom: 18px;
+}
+footer .contact p svg
+{
+    width: 19px;
+    background-color: #da951c;
+}
+footer .contact p
+{
+    width: 257px;
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #da951c;
+    margin-bottom: 10px;
+    font-size: large;
+    font-weight: 800;
+    margin-top: 3px;
+}
+footer .oppening h2 { margin-bottom: -4px;}
+footer .oppening ul li p , footer .oppening ul li span
+{
+    font-family: 'Edu NSW ACT Foundation', cursive;
+    color: #da951c;
+    margin-bottom: 9px;
+    font-size: 16px;
+    font-weight: bold;
+}
+footer .info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 145px;
+}
+footer .oppening ul li 
+{
+    margin-bottom: 9px;
+}
+footer .oppening ul
+{
+    list-style: none;
+}
+footer .copyright
+{
+    background-color: #080405;
+    height: 100px;
+}
+footer .copyright p 
+{
+    color:#edb12f;
+    text-align: center;
+    font-size: 27px;
+    font-weight: bold;
+    margin-top: 73px;
+    padding-top: 32px;
+}
